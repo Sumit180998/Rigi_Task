@@ -1,7 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
+import { VedioData } from './VedioData';
 
 function App() {
+  console.log(VedioData.categories[0].videos)
   return (
     <div className="App">
       <header className="App-header">

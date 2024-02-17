@@ -5,7 +5,7 @@ import App from './App';
 import '../node_modules/bootstrap/dist/js/bootstrap.min';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import'@fortawesome/fontawesome-free/css/all.min.css'
-import VideoPlayer from './VideoPlayer';
+import VideoPlayer from './VideoPlayer'
 
 import reportWebVitals from './reportWebVitals';
 
@@ -13,7 +13,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <App /> */}
-    <VideoPlayer/>
+   <VideoPlayer/>
   </React.StrictMode>
 );
 

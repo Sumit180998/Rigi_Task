@@ -6,7 +6,7 @@ import Navbar from './Nav_footer/Navbar'
 import Footer from './Nav_footer/Footer'
 import './App.css';
 
-const VideoPlayers = () => {
+const VideoPlayer = () => {
   const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
   const [isPlaying, setIsPlaying] = useState(false);
   const [autoplay, setAutoplay] = useState(false);
@@ -141,4 +141,4 @@ console.log(currentVideo)
   );
 };
 
-export default VideoPlayers;
+export default VideoPlayer;

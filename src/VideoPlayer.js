@@ -88,7 +88,7 @@ console.log(currentVideo)
               style={{borderRight:'50px'}}
             />
             <div className="controls">
-              <button className='buttonContainer' onClick={()=>PlayPause()}>{isPlaying ? 'Pause' : 'Play'}</button>
+              <button className='custom-btn btn' onClick={()=>PlayPause()}>{isPlaying ? 'Pause' : 'Play'}</button>
               <input
                 type="range"
                 min={0}
@@ -116,9 +116,9 @@ console.log(currentVideo)
               </label>
             </div>
             <div className="controls">
-          {currentVideoIndex>0 && <button className='buttonContainer' onClick={()=>Pervious()}>Pervious</button>}  
-         {currentVideoIndex < VedioData.categories[0].videos.length-1 && <button className='buttonContainer'  onClick={()=>Next()}>Next</button> }     
-              <button className='buttonContainer' onClick={()=>FullScreen()}>FullScreen</button>
+          {currentVideoIndex>0 && <button className='custom-btn btn' onClick={()=>Pervious()}>Pervious</button>}  
+         {currentVideoIndex < VedioData.categories[0].videos.length-1 && <button className='custom-btn btn'  onClick={()=>Next()}>Next</button> }     
+              <button className='custom-btn btn' onClick={()=>FullScreen()}>FullScreen</button>
             
             </div>
             <div style={{ margin:'10px'}}> {currentVideo.description}</div>
